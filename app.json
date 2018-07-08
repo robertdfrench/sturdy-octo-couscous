@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "name": "Twilio Enabler",
+  "description": "Deploy on heroku, connect to twilio.",
   "image": "heroku/python",
   "repository": "https://github.com/heroku/python-getting-started",
   "keywords": ["python", "django" ],
@@ -11,8 +11,7 @@
       "generator": "secret"
     },
     "TWILIO_KEY": {
-      "description": "The secret key for the deploying team's Twilio Account",
-      "generator": "secret"
+      "description": "The secret key for the deploying team's Twilio Account"
     }
   },
   "environments": {
