@@ -8,7 +8,7 @@ from .models import Greeting
 def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, 'index.html', {
-        'team_secret': os.environ.get('TEAM_SECRET', "not defined")
+        'twilio_key': os.environ.get('TWILIO_KEY', "not defined")
         })
 
 

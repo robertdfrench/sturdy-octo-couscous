@@ -9,6 +9,10 @@
     "SECRET_KEY": {
       "description": "The secret key for the Django application.",
       "generator": "secret"
+    },
+    "TWILIO_KEY": {
+      "description": "The secret key for the deploying team's Twilio Account",
+      "generator": "secret"
     }
   },
   "environments": {

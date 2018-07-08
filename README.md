@@ -1,6 +1,6 @@
-# Python: Getting Started
+# Deploy Twilio-connect App from Heroku Button
 
-A barebones Django app, which can easily be deployed to Heroku.
+A barebones Django app, which can easily be deployed to Heroku and connect to the deploying team's Twilio account.
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
